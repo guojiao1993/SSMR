@@ -10,3 +10,5 @@ primary key(id)
 );
 
 insert into t_role(role_name, note) values('role_name_1', 'note_1');
+
+select * from t_role;
