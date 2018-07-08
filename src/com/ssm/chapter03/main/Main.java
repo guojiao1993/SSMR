@@ -1,15 +1,15 @@
-package com.learn.ssm.chapter3.main;
+package com.ssm.chapter03.main;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 
-import com.learn.ssm.chapter3.mapper.RoleMapperUsingAnnotation;
-import com.learn.ssm.chapter3.mapper.RoleMapperUsingXML;
-import com.learn.ssm.chapter3.pojo.Role;
-import com.learn.ssm.chapter3.utils.SqlSessionFactoryUtils;
+import com.ssm.chapter03.mapper.RoleMapperUsingAnnotation;
+import com.ssm.chapter03.mapper.RoleMapperUsingXML;
+import com.ssm.chapter03.pojo.Role;
+import com.ssm.chapter03.utils.SqlSessionFactoryUtils;
 public class Main {
 
 	public static void main(String[] args) {
-//		testRoleMapperUsingXML();
+		testRoleMapperUsingXML();
 		testRoleMapperUsingAnnotation();
 	}
 	

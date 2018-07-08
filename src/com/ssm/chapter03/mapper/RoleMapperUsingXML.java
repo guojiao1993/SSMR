@@ -1,6 +1,7 @@
-package com.learn.ssm.chapter3.mapper;
+package com.ssm.chapter03.mapper;
 import java.util.List;
-import com.learn.ssm.chapter3.pojo.Role;
+
+import com.ssm.chapter03.pojo.Role;
 public interface RoleMapperUsingXML {
 	public Role getRole(Long id);
 	public int insertRole(Role role);

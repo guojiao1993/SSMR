@@ -1,17 +1,20 @@
-package com.learn.ssm.chapter3.pojo;
+package com.ssm.chapter17.pojo;
 
-public class Role {
+import java.io.Serializable;
 
-	private Long id;
+public class Role implements Serializable {
+	
+	private static final long serialVersionUID = 6977402643848374753L;
+
+	private long id;
 	private String roleName;
 	private String note;
 
-	/** setter and getter **/
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 

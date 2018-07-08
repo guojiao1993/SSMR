@@ -5,7 +5,7 @@
 	<!-- 别名 -->
 	<typeAliases>
 		<typeAlias alias="role"
-			type="com.learn.ssm.chapter3.pojo.Role" />
+			type="com.ssm.chapter03.pojo.Role" />
 	</typeAliases>
 	<!-- 数据库环境 -->
 	<environments default="development">
@@ -21,7 +21,7 @@
 	</environments>
 	<!-- 映射文件 -->
 	<mappers>
-		<mapper resource="com/learn/ssm/chapter3/mapper/RoleMapper.xml" />
-		<mapper class="com.learn.ssm.chapter3.mapper.RoleMapperUsingAnnotation" />
+		<mapper resource="com/ssm/chapter03/mapper/RoleMapper.xml" />
+		<mapper class="com.ssm.chapter03.mapper.RoleMapperUsingAnnotation" />
 	</mappers>
 </configuration>

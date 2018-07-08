@@ -1,4 +1,4 @@
-package com.learn.ssm.chapter3.utils;
+package com.ssm.chapter03.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,9 +13,9 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.transaction.TransactionFactory;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 
-import com.learn.ssm.chapter3.mapper.RoleMapperUsingAnnotation;
-import com.learn.ssm.chapter3.mapper.RoleMapperUsingXML;
-import com.learn.ssm.chapter3.pojo.Role;
+import com.ssm.chapter03.mapper.RoleMapperUsingAnnotation;
+import com.ssm.chapter03.mapper.RoleMapperUsingXML;
+import com.ssm.chapter03.pojo.Role;
 
 public class SqlSessionFactoryUtils {
 
@@ -35,7 +35,7 @@ public class SqlSessionFactoryUtils {
 			if (sqlSessionFactory != null) {
 				return sqlSessionFactory;
 			}
-			String resource = "com/learn/ssm/chapter3/config/mybatis-config.xml";
+			String resource = "com/ssm/chapter03/config/mybatis-config.xml";
 			InputStream inputStream;
 			try {
 				inputStream = Resources.getResourceAsStream(resource);

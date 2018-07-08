@@ -1,8 +1,8 @@
-package com.learn.ssm.chapter3.mapper;
+package com.ssm.chapter03.mapper;
 
 import org.apache.ibatis.annotations.Select;
 
-import com.learn.ssm.chapter3.pojo.Role;
+import com.ssm.chapter03.pojo.Role;
 
 public interface RoleMapperUsingAnnotation {
 	
